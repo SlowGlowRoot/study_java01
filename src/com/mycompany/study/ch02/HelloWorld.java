@@ -6,13 +6,20 @@ public class HelloWorld {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Hello, World.");
-		System.out.println("제 이름은 서희근입니다.");
-		System.out.println("올해로 20세입니다.");
-		System.out.println("거주지는 경기도 김포시입니다.");
-		System.out.println("취미는 프로그래밍입니다.");
-		System.out.println("잘 부탁드립니다.");
-		System.out.println("");
-		System.out.println("컴파일 키는 Ctrl + F11키 입니다.");
+		
+		// 변수 선언 : 데이터타입 변수명;
+		// 변수 초기화 : 데이터타입 변수명 = 리터럴;
+		boolean a = true;
+		boolean b = false;
+		
+		int c = 1;
+		int d;
+		d = 2;
+		
+		int e, f, g;
+		e = 10;
+		
+		System.out.println("e  : " + e);
 		
 	}
 
