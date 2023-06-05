@@ -115,13 +115,13 @@ public class ExIfSwitchForTest {
 		System.out.println("");
 		
 		for (int i = 1; i <= 5; i++) {
-			if (i % 4 == 1) {
+			if (i == 1 || i == 5) {
 				for (int j = 1; j <= 10; j++) {
 					System.out.print("*");
 				}
 			} else {
 				for (int j = 1; j <= 10; j++) {
-					if (j % 9 == 1) {
+					if (j == 1 || j == 10 ) {
 						System.out.print("*");
 					} else {
 						System.out.print(" ");
