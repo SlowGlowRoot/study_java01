@@ -31,7 +31,7 @@ public class ExLotto {
 					}
 					for (int k = 0; k < j; k++) {
 						// 연속된 세 자리 수 X
-						if (lotto[k] + 1 == lotto[j] && lotto[j] == lotto[i] - 1) {
+						if (k+1 == j && j == i-1 && lotto[k] + 1 == lotto[j] && lotto[j] == lotto[i] - 1) {
 							i-- ;
 						}
 					}
