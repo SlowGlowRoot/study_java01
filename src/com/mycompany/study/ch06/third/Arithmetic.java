@@ -49,7 +49,7 @@ public class Arithmetic {
 		}
 	}
 	
-	// input도 output도 없음
+	// input은 없고 output만 있음
 	public int takeMyMoney() {
 		return 10000;
 	}
