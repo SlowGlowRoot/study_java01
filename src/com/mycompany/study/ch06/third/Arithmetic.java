@@ -49,6 +49,7 @@ public class Arithmetic {
 		}
 	}
 	
+	// input도 output도 없음
 	public int takeMyMoney() {
 		return 10000;
 	}
