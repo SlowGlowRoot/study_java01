@@ -6,4 +6,5 @@
  *
  */
 module study_java01 {
+	requires java.desktop;
 }
